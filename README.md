@@ -1,16 +1,22 @@
-# fooddeliveryapp
+# FoodDeliveryApp
 
-A new Flutter project.
+Mobile food delivery app built with Flutter.
 
-## Getting Started
+## Features implemented
+- Favorite / Unfavorite food items
+- Add to cart, increase/decrease item quantity
+- Remove item from cart
+- Select payment method
+- Thanks screen after order
+- Location tracking for delivery
 
-This project is a starting point for a Flutter application.
+## Getting started
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
+- Flutter SDK
+- Android Studio / Xcode (for building)
+- A Firebase project (see Firebase setup below)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Install
+```bash
+flutter pub get
